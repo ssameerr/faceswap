@@ -1,10 +1,14 @@
 pathlib==1.0.1
 scandir==1.6
 h5py==2.7.1
-Keras==2.1.2
-opencv-python==3.3.0.10
-tensorflow-gpu==1.5.0
+Keras==2.6.0rc3
+opencv-python==4.2.0.32.10
+tensorflow-gpu==2.5.1
 scikit-image
 dlib
 face_recognition
 tqdm
+bleach>=3.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+html5lib>=0.99999999 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=8.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
