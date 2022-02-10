@@ -8,3 +8,4 @@ scikit-image
 dlib
 face_recognition
 tqdm
+pillow>=9.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
